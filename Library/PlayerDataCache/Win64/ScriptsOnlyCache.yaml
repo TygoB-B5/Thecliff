@@ -24,9 +24,6 @@ ScriptsOnlyBuild:
     - Valve.VR.SteamVR_Settings
     - Valve.VR.SteamVR_Skeleton_Pose
     - Valve.VR.SteamVR_Skeleton_Poser
-    Unity.CollabProxy.Editor.dll:
-    - Unity.Cloud.Collaborate.UserInterface.CollaborateWindow
-    - Unity.Cloud.Collaborate.UserInterface.WindowCache
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     Unity.TextMeshPro.dll:
@@ -94,59 +91,59 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11894}
+      Script: {instanceID: 11962}
     - Class: 114
-      Script: {instanceID: 11896}
+      Script: {instanceID: 11964}
     - Class: 114
-      Script: {instanceID: 11978}
+      Script: {instanceID: 12052}
     - Class: 114
-      Script: {instanceID: 12062}
+      Script: {instanceID: 12142}
     - Class: 114
-      Script: {instanceID: 12258}
+      Script: {instanceID: 12254}
     - Class: 114
-      Script: {instanceID: 12354}
+      Script: {instanceID: 12358}
     - Class: 114
-      Script: {instanceID: 12648}
+      Script: {instanceID: 12466}
     - Class: 114
-      Script: {instanceID: 12732}
+      Script: {instanceID: 12774}
     - Class: 114
-      Script: {instanceID: 12784}
+      Script: {instanceID: 12862}
     - Class: 114
-      Script: {instanceID: 13016}
+      Script: {instanceID: 12916}
     - Class: 114
-      Script: {instanceID: 13266}
+      Script: {instanceID: 13156}
     - Class: 114
-      Script: {instanceID: 13294}
+      Script: {instanceID: 13436}
     - Class: 114
-      Script: {instanceID: 13716}
+      Script: {instanceID: 13466}
     - Class: 114
-      Script: {instanceID: 13732}
+      Script: {instanceID: 13906}
     - Class: 114
-      Script: {instanceID: 13804}
+      Script: {instanceID: 13922}
     - Class: 114
-      Script: {instanceID: 13830}
+      Script: {instanceID: 14002}
     - Class: 114
-      Script: {instanceID: 14142}
+      Script: {instanceID: 14028}
     - Class: 114
-      Script: {instanceID: 14198}
+      Script: {instanceID: 14358}
     - Class: 114
-      Script: {instanceID: 14202}
+      Script: {instanceID: 14414}
     - Class: 114
-      Script: {instanceID: 14228}
+      Script: {instanceID: 14418}
     - Class: 114
-      Script: {instanceID: 14234}
+      Script: {instanceID: 14446}
     - Class: 114
-      Script: {instanceID: 14270}
+      Script: {instanceID: 14452}
     - Class: 114
-      Script: {instanceID: 14314}
+      Script: {instanceID: 14490}
     - Class: 114
-      Script: {instanceID: 14444}
+      Script: {instanceID: 14536}
     - Class: 114
-      Script: {instanceID: 14488}
+      Script: {instanceID: 14676}
     - Class: 114
-      Script: {instanceID: 14670}
+      Script: {instanceID: 14724}
     - Class: 114
-      Script: {instanceID: 293956}
+      Script: {instanceID: 14922}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -176,6 +173,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: GraphicRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: a1f19ad47d3094e235f21b74dfc423a8
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: PostProcessLayer
   - hash:
       serializedVersion: 2
       Hash: 4bc4346a71a8df53a6b106f68ef3a190
@@ -212,6 +215,18 @@ ScriptsOnlyBuild:
     assemblyName: SteamVR.dll
     namespaceName: Valve.VR.InteractionSystem
     className: DestroyOnParticleSystemDeath
+  - hash:
+      serializedVersion: 2
+      Hash: 726fcf7961cbb4108aa5be5e55b8c8bf
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: ColorGrading
+  - hash:
+      serializedVersion: 2
+      Hash: b13de7a0a457cb8e026d4237dc1b5797
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: LensDistortion
   - hash:
       serializedVersion: 2
       Hash: f40fedccd4adbc76605bea6d67537e4b
@@ -268,6 +283,12 @@ ScriptsOnlyBuild:
     className: LinearAudioPitch
   - hash:
       serializedVersion: 2
+      Hash: 71f7f12b8d0f4fd73590db8bcb6d453c
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: Bloom
+  - hash:
+      serializedVersion: 2
       Hash: e7a73f5f78ba6445195ec23b74a1ce2d
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
@@ -284,6 +305,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
     className: PlayerQuitHandler
+  - hash:
+      serializedVersion: 2
+      Hash: af93f9c42e90877a9ba31e37adfd900c
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: MotionBlur
   - hash:
       serializedVersion: 2
       Hash: e9f3da6fb043ba55c5686b2625010fb8
@@ -358,6 +385,12 @@ ScriptsOnlyBuild:
     className: TouchInputModule
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: WinObjectBehaviour
+  - hash:
+      serializedVersion: 2
       Hash: 98aa0a0c8ff2910eb12af89c7e0eb661
     assemblyName: Unity.XR.Management.dll
     namespaceName: UnityEngine.XR.Management
@@ -374,6 +407,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
     className: TestResultRendererCallback
+  - hash:
+      serializedVersion: 2
+      Hash: f542c1afca5bb4022f91fdda19b8d622
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: DepthOfField
   - hash:
       serializedVersion: 2
       Hash: f53353aadf7a88ea54da9f1e48a6d181
@@ -418,6 +457,12 @@ ScriptsOnlyBuild:
     className: SteamVR_Settings
   - hash:
       serializedVersion: 2
+      Hash: 63d7b9b64a11859f416d72ba9a3c3fec
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: ScreenSpaceReflections
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: SteamVR.dll
     namespaceName: Valve.VR.InteractionSystem
@@ -448,6 +493,12 @@ ScriptsOnlyBuild:
     className: CustomSkeletonHelper
   - hash:
       serializedVersion: 2
+      Hash: 38bcb4d3f9a1812fd650f92e87a4cf64
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: PostProcessProfile
+  - hash:
+      serializedVersion: 2
       Hash: 0dbc3be398b4869a5c8d0d8481ee402c
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -470,6 +521,12 @@ ScriptsOnlyBuild:
     assemblyName: SteamVR.dll
     namespaceName: Valve.VR.InteractionSystem.Sample
     className: JoeJeffController
+  - hash:
+      serializedVersion: 2
+      Hash: e82c0521cdfe8cb6a168ef7208a98d4a
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: Vignette
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -628,6 +685,12 @@ ScriptsOnlyBuild:
     className: InteractableExample
   - hash:
       serializedVersion: 2
+      Hash: 7e6ed836cbaa230e56d6a2bbae1b9bb5
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: PostProcessEffectSettings
+  - hash:
+      serializedVersion: 2
       Hash: e0f1a8d4b95e2893e46f658b3b796847
     assemblyName: SteamVR.dll
     namespaceName: Valve.VR
@@ -704,6 +767,12 @@ ScriptsOnlyBuild:
     assemblyName: SteamVR.dll
     namespaceName: Valve.VR.InteractionSystem.Sample
     className: BuggyBuddy
+  - hash:
+      serializedVersion: 2
+      Hash: 61b9d9b6f4b6a222dfea8b131b3d3227
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: ChromaticAberration
   - hash:
       serializedVersion: 2
       Hash: d0f72e335ba63de49df35d5745fee637
@@ -826,6 +895,12 @@ ScriptsOnlyBuild:
     className: Interactable
   - hash:
       serializedVersion: 2
+      Hash: d6fc8d3165070298511ec776ea575626
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: PostProcessResources
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
@@ -874,6 +949,12 @@ ScriptsOnlyBuild:
     className: LinearMapping
   - hash:
       serializedVersion: 2
+      Hash: a53651ee3996fbba20dfe0fce02f0b23
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: AutoExposure
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
@@ -896,6 +977,12 @@ ScriptsOnlyBuild:
     assemblyName: SteamVR.dll
     namespaceName: Valve.VR.InteractionSystem
     className: Longbow
+  - hash:
+      serializedVersion: 2
+      Hash: 50c443b12ccc0b475183318b5088bcc5
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: PostProcessDebug
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -1336,6 +1423,18 @@ ScriptsOnlyBuild:
     className: TeleportURPHelper
   - hash:
       serializedVersion: 2
+      Hash: d5630f96bd5a6a6eed7e1754c3fb8703
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: PostProcessVolume
+  - hash:
+      serializedVersion: 2
+      Hash: d0987ce3e9092dbe0fa30d73f333fffa
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: Grain
+  - hash:
+      serializedVersion: 2
       Hash: a2612813f45d0ced02c3e4bc9dbea8b4
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
@@ -1358,6 +1457,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
     className: PlayModeRunnerCallback
+  - hash:
+      serializedVersion: 2
+      Hash: ac6acd886c54c48c599ab5fed5781ea7
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: AmbientOcclusion
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -1514,13 +1619,7 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: WinObjectBehaviour
   platform: 19
   scenePathNames:
   - Assets/Scenes/Game.unity
-  playerPath: C:/Users/tygo/Desktop/SpecificFox_TheClif_Build/Project3D.exe
+  playerPath: C:/Users/tygo/Desktop/TheCliff/Project3D.exe

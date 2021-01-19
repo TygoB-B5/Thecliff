@@ -15,7 +15,7 @@ public class PlayerJump : MonoBehaviour
 
     private void Update()
     {
-        IsGrounded = CheckIfGrounded();
+        //IsGrounded = CheckIfGrounded();
 
         if (VRInput.Jump && IsGrounded)
             Jump();
@@ -43,5 +43,15 @@ public class PlayerJump : MonoBehaviour
 
         GetComponentInChildren<ParticleSystem>().Play();
         isJumping = false;
+    }
+
+    private void OnCollisionStay(Collision collision)
+    {
+        IsGrounded = true;
+    }
+
+    private void OnCollisionExit(Collision collision)
+    {
+        IsGrounded = false;
     }
 }
